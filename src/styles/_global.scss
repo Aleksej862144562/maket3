@@ -8,3 +8,56 @@ header, main, footer {
   max-width: 1440px;
   margin: 0 auto;
 }
+
+
+
+header {
+  height: 100px;
+  background: #FB3F5C;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1190px;
+}
+
+.header-meniu {
+  display: flex;
+  height: 100px;
+  align-items: center;
+  justify-content: space-between;  
+}
+
+.logo {
+font-family: 'NovaMono';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 50px;
+text-transform: uppercase;
+color: #F8EEEF;
+}
+
+.logo {
+font-size: 36px;
+line-height: 50px;
+text-transform: uppercase;
+color: #F8EEEF;
+}
+
+ul {
+display: flex;
+list-style-type: none;
+font-weight: 400;
+font-size: 24px;
+line-height: 33px;
+color: #F8EEEF;
+gap: 52px;
+
+}
+
+li:first-child {
+font-weight: 700;
+}
+
+
