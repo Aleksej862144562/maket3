@@ -56,11 +56,10 @@ gap: 52px;
 
 }
 
-li:first-child {
-font-weight: 700;
+li.active:hover {
+  font-weight: 700;
+  cursor: pointer;
 }
-
-
 
 
 span.text-im {
