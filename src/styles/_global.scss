@@ -60,15 +60,8 @@ li:first-child {
 font-weight: 700;
 }
 
-.first-section {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
 
-.first-section-left {
-  width: 443px;
-}
+
 
 span.text-im {
 font-weight: 700;
@@ -112,28 +105,37 @@ font-size: 20px;
 color: #F8EEEF;
 }
 
-.first-section-right  {
-  width: 498px;
-  height: 694px;
+.first-section-left {
+  height: 720px;
+  width: 721px;
+  display: flex;
+  align-items: center;
 }
 
-.treugolnik {
-  background-image: url(./images/treu.png);
-  background-size: 100%;
-  width: 621px;
-  height: 692px;
-  background-repeat: no-repeat;
+.first-section-text{
+width: 445px;
+}
+
+.first-section {
+  display: flex;
+    align-items: center;
+}
   
+.first-section-right{
+
+  width: 621px;
+  height: 691px;
 }
 
 .foto {
-  background-image: url(./images/LICO.png);
-  background-size: 100%;
-  width: 432px;
-  height: 541px;
-  background-repeat: no-repeat;
   position: relative;
-    top: -600px;
+  top: -11px;
+  left: 118px;
+  width: 632px;
+  height: 687px;
+ background-image: url(./images/LICO.png), url(./images/treu1.png);
+ background-repeat: no-repeat;
+ background-position: 32px, 8px, 50%;
 }
 
 
